@@ -1,0 +1,12 @@
+---
+env:
+  PANTS_CONFIG_FILES: "['pants.toml', 'pants.ci.toml']"
+
+steps:
+  - label: ":lint-roller::docker: Lint Dockerfile"
+    command:
+      - make lint-docker
+
+  - label: ":docker: Build Image"
+    command:
+      - make image
