@@ -1,5 +1,5 @@
 variable "PULUMI_VERSION" {
-  default = "3.33.1"
+  default = "3.34.1"
 }
 
 variable "PULUMICTL_VERSION" {
