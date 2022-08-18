@@ -1,19 +1,19 @@
 variable "PULUMI_VERSION" {
-  default = "3.34.1"
+  default = "3.38.0"
 }
 
 variable "PULUMICTL_VERSION" {
-  default = "0.0.31"
+  default = "0.0.32"
 }
 
 variable "GOLANGCI_LINT_VERSION" {
   # Note: No leading "v"
-  default = "1.45.2"
+  default = "1.48.0"
 }
 
 variable "GORELEASER_VERSION" {
   # Note: No leading "v"
-  default = "1.6.3"
+  default = "1.10.3"
 }
 
 group "default" {
