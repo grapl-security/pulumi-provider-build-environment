@@ -4,3 +4,5 @@ backend_packages = [
     "pants.backend.docker",
     "pants.backend.docker.lint.hadolint",
 ]
+
+use_deprecated_directory_cli_args_semantics = false
