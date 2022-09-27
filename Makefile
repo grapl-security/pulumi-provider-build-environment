@@ -7,7 +7,7 @@ all: # Run all tasks
 
 .PHONY: lint-docker
 lint-docker: ## Lint Dockerfiles
-	./pants filter --target-type=docker_image :: | xargs ./pants lint
+	./pants --filter-target-type=docker_image lint ::
 
 .PHONY: image
 image: ## Build the container image
